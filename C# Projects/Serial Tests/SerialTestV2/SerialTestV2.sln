@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SerialTestV2", "SerialTestV2\SerialTestV2.csproj", "{2485015D-9521-43A4-97C4-1CFEE6106F4A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2485015D-9521-43A4-97C4-1CFEE6106F4A}.Debug|x86.ActiveCfg = Debug|x86
+		{2485015D-9521-43A4-97C4-1CFEE6106F4A}.Debug|x86.Build.0 = Debug|x86
+		{2485015D-9521-43A4-97C4-1CFEE6106F4A}.Release|x86.ActiveCfg = Release|x86
+		{2485015D-9521-43A4-97C4-1CFEE6106F4A}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = SerialTestV2\SerialTestV2.csproj
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<stetic-interface>
+  <configuration>
+    <images-root-path>..</images-root-path>
+    <target-gtk-version>2.12</target-gtk-version>
+  </configuration>
+  <import>
+    <widget-library name="glade-sharp, Version=2.12.0.0, Culture=neutral, PublicKeyToken=35e10195dab3c99f" />
+    <widget-library name="../bin/Debug/Drwaing2.exe" internal="true" />
+  </import>
+  <widget class="Gtk.Window" id="MainWindow" design-size="805 543">
+    <property name="MemberName" />
+    <property name="Title" translatable="yes">MainWindow</property>
+    <property name="WindowPosition">CenterOnParent</property>
+    <property name="BorderWidth">6</property>
+    <property name="Resizable">False</property>
+    <property name="AllowGrow">False</property>
+    <property name="DefaultWidth">500</property>
+    <property name="DefaultHeight">500</property>
+    <signal name="DeleteEvent" handler="OnDeleteEvent" />
+    <child>
+      <widget class="Gtk.VBox" id="vbox1">
+        <property name="MemberName" />
+        <property name="Spacing">6</property>
+        <child>
+          <widget class="Gtk.HBox" id="hbox3">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.Fixed" id="AlexsBox">
+                <property name="MemberName" />
+                <property name="WidthRequest">500</property>
+                <property name="HeightRequest">500</property>
+                <property name="HasWindow">False</property>
+                <child>
+                  <widget class="Gtk.Label" id="AlexsBox_lbl">
+                    <property name="MemberName" />
+                    <property name="LabelProp" translatable="yes">Title</property>
+                  </widget>
+                  <packing>
+                    <property name="X">197</property>
+                    <property name="Y">54</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Image" id="Mote1_img">
+                    <property name="MemberName" />
+                    <property name="Pixbuf">resource:Drwaing2.antenna_parabolasmaller.png</property>
+                  </widget>
+                  <packing>
+                    <property name="X">33</property>
+                    <property name="Y">340</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Image" id="Mote3_img">
+                    <property name="MemberName" />
+                    <property name="Pixbuf">resource:Drwaing2.antenna_parabolasmaller.png</property>
+                  </widget>
+                  <packing>
+                    <property name="X">327</property>
+                    <property name="Y">309</property>
+                  </packing>
+                </child>
+                <child>
+                  <widget class="Gtk.Image" id="Mote2_img">
+                    <property name="MemberName" />
+                    <property name="Pixbuf">resource:Drwaing2.antenna_parabolasmaller.png</property>
+                  </widget>
+                  <packing>
+                    <property name="X">156</property>
+                    <property name="Y">239</property>
+                  </packing>
+                </child>
+              </widget>
+              <packing>
+                <property name="Position">0</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.VBox" id="vbox2">
+                <property name="MemberName" />
+                <property name="Spacing">6</property>
+                <child>
+                  <placeholder />
+                </child>
+                <child>
+                  <placeholder />
+                </child>
+                <child>
+                  <placeholder />
+                </child>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">0</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+        <child>
+          <widget class="Gtk.Statusbar" id="statusbar1">
+            <property name="MemberName" />
+            <property name="Spacing">6</property>
+            <child>
+              <widget class="Gtk.Label" id="label8">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">Status:</property>
+              </widget>
+              <packing>
+                <property name="Position">1</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+            <child>
+              <widget class="Gtk.Label" id="status_lbl">
+                <property name="MemberName" />
+                <property name="LabelProp" translatable="yes">Waiting...</property>
+              </widget>
+              <packing>
+                <property name="Position">2</property>
+                <property name="AutoSize">True</property>
+                <property name="Expand">False</property>
+                <property name="Fill">False</property>
+              </packing>
+            </child>
+          </widget>
+          <packing>
+            <property name="Position">1</property>
+            <property name="AutoSize">True</property>
+            <property name="Expand">False</property>
+            <property name="Fill">False</property>
+          </packing>
+        </child>
+      </widget>
+    </child>
+  </widget>
+</stetic-interface>

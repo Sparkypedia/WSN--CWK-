@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SerialTestV2/Space.cs">
+    <Files>
+      <File FileName="SerialTestV2/Main.cs" Line="17" Column="1" />
+      <File FileName="SerialTestV2/MainWindow.cs" Line="20" Column="3" />
+      <File FileName="SerialTestV2/Space.cs" Line="22" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
